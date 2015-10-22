@@ -8,6 +8,9 @@
 
 		<link type="text/css" rel="stylesheet" href="style.css"/>
     <meta charset="utf-8">
+
+    <!-- Icons  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     
     
 		<title>Audrey Le Balch</title>
@@ -28,31 +31,52 @@
  </head>
 
 
-
-
 <body>
+
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">CV Audrey Le Balc'h</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Présentation</a></li>
+        <li><a href="#experiences">Expériences</a></li>
+        <li><a href="#formation">Formation</a></li>
+        <li><a href="#competences">Compétences et centres d'intérêts </a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+
+
 <header>
-  <nav>
-        <ul class="nav navbar-nav">
-          <li><a class="nav-section" href="#home">Présentation</a></li>
-          <li><a class="nav-section" href="#experiences">Expériences</a></li>
-          <li><a class="nav-section" href="#formation">Formation</a></li>
-          <li><a class="nav-section" href="#competences">Compétences et centres d'intérêts</a></li>       
-          <li><a class="nav-section" href="#contact">Contact</a></li>
-          <li><a class="nav-section" target="_blank" href="#">Blog</a></li>
-        </ul>
-  </nav>
+
 
       <h1 >Audrey le Balc'h</h1>
       <p id="mail">audrey.lebalch@hotmail.fr</p>
       <div><img src="images/audrey.png" class="rounded audrey$"></div>
       <ul class="social-media list-inline">
 </a></li>
-        <li><a href="" target="_blank"><i class="fa fa-twitter"></i>
+        <li><a href="https://twitter.com/AudreyLeBalch" target="_blank"><i class="fa fa-twitter"></i>
 </a></li>
         <li><a href="https://fr.linkedin.com/pub/audrey-le-balc-h/62/155/417" target="_blank"><i class="fa fa-linkedin"></i>
 </a></li>
         <li><a href="" target="_blank"><i class="fa fa-wordpress"></i>
+</a></li>
+        <li><a href="CV-audrey-le-balc-h.pdf" target="_blank"><i class="fa fa-upload"></i>
 </a></li>
       </ul>
       
@@ -65,29 +89,47 @@
 
         <h3 ><b>STATUT</b> : EN POSTE</h3>
         <h3 ><b>EMPLOI </b>: Assistante Trade Marketing et Etudes à Orange Advertising</h3>
-</section > 
+        <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+Qui suis-je ?
+</button>
 
-
-
-
-<div class="separator"></div>
-
-
-<p><center>
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Qui suis-je ?</h4>
+      </div>
+      <div class="modal-body">
 Actuellement étudiante à Télécom école de management, j’effectue un Master 2 en marketing digital. Depuis septembre 2015 je suis assistante Trade marketing et Etudes au sein de la direction numériques et nouveaux usages d’Orange Advertising.
 Après avoir obtenu mon diplôme, je souhaite trouver un emploi dans le secteur de la publicité digitale, en France ou à l’étranger. 
 Vous trouverez sur cette plateforme mon CV.
 N’hésitez pas à me contacter via l’onglet “Contact” pour toutes questions.
-</center></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section > 
+
   
- <div class="separator"></div>
 
  
-   <!-- Expériences (bootstrap) -->
+<!-- EXPERIENCES (bootstrap) -->
    
-  <section id="experiences">
-  <div class="section">
-  <h2 >Expériences professionnelles</h2>
+<section id="experiences">
+
+
+<div class="section-title">
+  <h2>Expériences professionnelles</h2>
+</div>
+
+
+  <div class="separator2"></div>
 
 <div class="container">
   <ul class="timeline">
@@ -109,59 +151,59 @@ N’hésitez pas à me contacter via l’onglet “Contact” pour toutes questi
 </div>
 
 
-
 <div class="container">
   <ul class="timeline">
   <li class ="liste">
       <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-        <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Chargée des opérations spéciales et des partenariats. ELLE,JANVIER 2015 – AOUT 2015  </h4>
-              <p>
-       <ul>
+      <div class="timeline-panel">
+      <div class="timeline-heading">
+   <h4 class="timeline-title">Chargée des opérations spéciales et des partenariats. ELLE,JANVIER 2015 – AOUT 2015  </h4>
+      <p><ul>
         <li>Gestion de projet: mise en place des opérations spéciales</li>
         <li>veille concurrentielle</li>
         <li>Mise en place des partenariats</li>
         <li>suivi de l'audience:reporting mensuels</li>
       </ul></p>
-            </div>
-            </div>
-          </div>
-        </li>
-    </ul>
+      </div>
+      </div>
+      </div>
+  </li>
+  </ul>
 </div>
 
 
-
-   <div class="container">
-    <ul class="timeline">
-        <li class ="liste">
-          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-          <div class="timeline-panel">
-            <div class="timeline-heading">
-              <h4 class="timeline-title">Chargée de projets E-marketing et des partenariats. LES ECHOS BUSINESS, JUIN 2014 – DECEMBRE 2015 </h4>
-              <p>
-        <ul >
+<div class="container">
+  <ul class="timeline">
+  <li class ="liste">
+       <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
+       <div class="timeline-panel">
+       <div class="timeline-heading">
+    <h4 class="timeline-title">Chargée de projets E-marketing et des partenariats. LES ECHOS BUSINESS, JUIN 2014 – DECEMBRE 2015 </h4>
+     <p><ul >
         <li>déploiement de la stratégie online</li>
         <li>déploiement de la notoriété sur les réseaux sociaux</li>
         <li>suivi de l'audience</li>
         <li>suivi des partenariats</li>
-       </ul>
-      </p>
-            </div>
-            </div>
-          </div>
-        </li>
-    </ul>
+     </ul></p>
+     </div>
+     </div>
+     </div>
+  </li>
+  </ul>
 </div>
 
 
 </div>
 </section>
 
-  <!-- FORMATION test -->
+  <!-- FORMATION (bootstrap)-->
 
+<section id="formation">
+
+  <div class="section-title">
   <h2 >Formation</h2>
+  </div>
+<div class="separator2"></div>
   <section id"formation">
   <div class="section">
   <div class="container">
@@ -208,42 +250,50 @@ N’hésitez pas à me contacter via l’onglet “Contact” pour toutes questi
    </div>
 </div>
 
-  <!-- FORMATION -->
   
-
   <div class="container">
   <div class="row">
 
 <div class="col-md-3">  
-      <span class="gras">MASTER GRANDE ECOLE</span><br /><span>Septembre 2014 - Septembre 2016</span><br /><span>Telecom Ecole de Management (Evry)</span>
+      <span class="gras"><b>MASTER GRANDE ECOLE</b></span><br /><span>Septembre 2014 - Septembre 2016</span><br /><span>Telecom Ecole de Management (Evry)</span>
 </div> 
 
 <div class="col-md-3">       
-      <span class="gras">SEMESTRE UNIVERSITAIRE</span><br /><span>Janvier 2014 – Juin 2014</span><br /><span>Formatic Barna (Barcelone)</span>
+      <span class="gras"><b>SEMESTRE UNIVERSITAIRE</b></span><br /><span>Janvier 2014 – Juin 2014</span><br /><span>Formatic Barna (Barcelone)</span>
 </div> 
   
 
 <div class="col-md-3">                
-       <span class="gras">DUT TECHNIQUES DE COMMERCIALISATION</span><br /><span>2010-2012</span><br /><span>IUT d'Angers</span>
+       <span class="gras"><b>DUT TECHNIQUES DE COMMERCIALISATION</b></span><br /><span>2010-2012</span><br /><span>IUT d'Angers</span>
 </div>           
  
 
 <div class="col-md-3">       
-      <span class="gras">BACCALAUREAT SCIENTIFIQUE</span><br /><span>–2010</span><br /><span>Lycée Bertrand d'Argentrée (Vitré)</span>
+      <span class="gras"><b>BACCALAUREAT SCIENTIFIQUE</b></span><br /><span>2010</span><br /><span>Lycée Bertrand d'Argentrée (Vitré)</span>
 </div> 
  
 
   </div>
    </div>
     </div>
-  </section>
+</section>
 
      <!-- COMPETENCES ET INTERETS -->
+
+     <br>
+     <br>
+     <br>
+     <br>
   <section id="competences">
   <div class="section">
+  <div class="section-title">
   <h2>Compétences et centres d'intérêts</h2>
+  </div>
+  <div class="separator2"></div>
+  <br>
+  <br>
 
-<div class="container">
+<div class="container" id="competences1">
 <div class="row">
 
   <div class="col-md-4">  
@@ -274,7 +324,7 @@ N’hésitez pas à me contacter via l’onglet “Contact” pour toutes questi
   <div id="voyages">         
     <img class="rounded2" src="/Users/audreylebalch/Desktop/monsite/picto_avion.png" class="img-responsive">
     <h3>VOYAGES</h3>       
-        <ul>
+        <ul id="voyages">
         <li>Espagne</li>
         <li>Cambodge</li>
         <li>Thailande</li>
@@ -284,13 +334,16 @@ N’hésitez pas à me contacter via l’onglet “Contact” pour toutes questi
   </div>
 
 </div>
-</div>
   </section>
+
 
  <!-- CONTACT -->
 
 <section id="contact" class="section">
-<h2 class="section-title">Contact</h2>
+<div class="section-title">
+<h2>Contact</h2>
+</div>
+<div class="separator2"></div>
 <div class="row">
       <div class="col-sm-8 col-sm-offset-2">
         
@@ -321,7 +374,18 @@ N’hésitez pas à me contacter via l’onglet “Contact” pour toutes questi
     </div>
 </section>
 
-  
+<folder class="folder">
+
+
+      <ul class="social-media list-inline">
+        <li><a href="CV-audrey-le-balc-h.pdf" target="_blank"><i class="fa fa-upload"></i>
+</a></li>
+      </ul>
+
+
+</folder>
+
+
    
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
