@@ -498,3 +498,6 @@ span.round-tab:hover {
     padding-top: 20px;
     }
 
+.btn-primary:hover {
+    color: #8A8A8A;
+}
