@@ -1,3 +1,7 @@
+ul {
+
+	list-style-type: none;
+}
 
 /* header */
 
@@ -82,6 +86,7 @@ header h1 {
 body {
 	font-family: 'Raleway', sans-serif;
 	margin-left: 5;
+
 }
 
 
@@ -154,14 +159,14 @@ body {
 h2 {
   color : #DD4F58;
   font-family : Helvetica Neue 25 ultra light; 
-  font-size: 150%
+  font-size: 150%;
 }
 
 
 h3 {
   color : #FFFFFF;
   font-family : Helvetica Neue 25 ultra light; 
-  font-size: 20px
+  font-size: 20px;
 }
 
 h5 {
@@ -183,7 +188,7 @@ h5 {
 
   /* rubriques */
 
-#experiences {
+  #experiences {
 	background-color : #D0DAE3;
 	padding: 20px;
 }
@@ -197,12 +202,10 @@ h5 {
 }
 
 #competences {
-	background-color : #D0DAE3;
-	padding: 12px;
-
+	background-color: #D0DAE3;
 }
 
-#contact {
+.contact {
    background-color : #8A8A8A;
    padding: 20px;
 }
@@ -250,11 +253,6 @@ h5 {
 
 /* Bootstrap Expériences */
 
-timeline {
-  list-style: none;
-  padding: 20px 0 20px;;
-  position: relative;
-}
 .timeline:before {
   top: 0;
   bottom: 0;
@@ -377,12 +375,6 @@ timeline {
     background: #fff;
 }
 
-    .wizard .nav-tabs {
-        position: relative;
-        margin: 40px auto;
-        margin-bottom: 0;
-        border-bottom-color: #e0e0e0;
-    }
 
     .wizard > div.wizard-inner {
         position: relative;
@@ -400,18 +392,11 @@ timeline {
     z-index: 1;
 }
 
-.wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
-    color: #555555;
-    cursor: default;
-    border: 0;
-    border-bottom-color: transparent;
-}
 
 span.round-tab {
     width: 70px;
     height: 70px;
     line-height: 70px;
-    display: inline-block;
     border-radius: 100px;
     background: #fff;
     border: 2px solid #e0e0e0;
@@ -442,28 +427,6 @@ span.round-tab:hover {
     width: 25%;
 }
 
-.wizard li:after {
-    content: " ";
-    position: absolute;
-    left: 46%;
-    opacity: 0;
-    margin: 0 auto;
-    bottom: 0px;
-    border: 5px solid transparent;
-    border-bottom-color: #5bc0de;
-    transition: 0.1s ease-in-out;
-}
-
-.wizard li.active:after {
-    content: " ";
-    position: absolute;
-    left: 46%;
-    opacity: 1;
-    margin: 0 auto;
-    bottom: 0px;
-    border: 10px solid transparent;
-    border-bottom-color: #5bc0de;
-}
 
 .wizard .nav-tabs > li a {
     width: 70px;
@@ -486,11 +449,8 @@ span.round-tab:hover {
         height: 50px;
         line-height: 50px;
     }
+}
 
-
- #competences1{
-    padding-top: 20px;
-    }
 
 .btn-primary:hover {
     color: #8A8A8A;
@@ -500,3 +460,27 @@ span.round-tab:hover {
 	display: none;
 
 }
+
+.hiddenmessage {
+	display: none;
+
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open>.dropdown-toggle.btn-primary {
+	background-color: #D0DAE3;
+	color: black;
+	border-bottom-color: #D0DAE3;
+	border-top-color: #D0DAE3;
+	border-left-color: #D0DAE3;
+	border-right-color : #D0DAE3;	
+}
+
+.btn-primary {
+	background-color: #D0DAE3;
+	color: #FFFFFF;
+	border-bottom-color: #D0DAE3;
+	border-top-color: #D0DAE3;
+	border-left-color: #D0DAE3;
+	border-right-color : #D0DAE3;
+}
+
