@@ -1,6 +1,6 @@
 ul {
 
-	list-style-type: none;
+
 }
 
 /* header */
@@ -451,6 +451,9 @@ span.round-tab:hover {
     }
 }
 
+ #competences1{
+    padding-top: 20px;
+    }
 
 .btn-primary:hover {
     color: #8A8A8A;
@@ -482,5 +485,14 @@ span.round-tab:hover {
 	border-top-color: #D0DAE3;
 	border-left-color: #D0DAE3;
 	border-right-color : #D0DAE3;
+}
+
+#missions {
+  list-style-type: black;
+
+
+}
+.liste {
+  list-style-type: none;
 }
 
